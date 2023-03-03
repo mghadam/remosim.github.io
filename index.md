@@ -3,6 +3,8 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+Say goodbye to expensive international roaming fees and hello to seamless communication wherever you go!
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+With RemoSIM, you can keep your SIM cards safe at home while still managing your calls and texts abroad over the internet.
+
+Enjoy the freedom and convenience of staying connected without breaking the bank.
