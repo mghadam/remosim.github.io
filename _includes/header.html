@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-  <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
-    </div>
-    <script src="{{ site.github.url }}/assets/libs/dark-mode.js"></script>
-  </body>
-</html>
+<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">{{ site.title }}</span>
+    </a>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span>{{ site.description }}</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    <button id="theme-toggle" class="btn btn-sm btn-outline-secondary">
+      <i class="fas fa-moon"></i>
+    </button>
+    {% for item in site.data.settings.menu %}
+      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>
