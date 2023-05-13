@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Home"
-imgurl: "assets/img/front.png"
+imgurl: "assets/img/home.jpg"
 imgalt: "front"
 ---
 ### Remotely Manage Your Simcards

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: content
 title: "Hardware"
 ---
 The following products are required to run RemoSIM software.
