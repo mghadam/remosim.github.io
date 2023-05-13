@@ -39,6 +39,6 @@ usb 1-2.2: device not accepting address 15, error -71
 usb 1-2.2: device descriptor read/64, error -71
 ```
 
-|![Incompatible USB Hub](/asset/img/Incompatible-USB-Hub.png)|
+|![Incompatible USB Hub](/assets/img/Incompatible-USB-Hub.png)|
 |:--:| 
 |*dmesg output when using USB dongles with an incompatible USB hub*|
