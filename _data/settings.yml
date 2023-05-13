@@ -11,7 +11,3 @@ social:
 - {icon: 'instagram', link: 'https://instagram.com/remosim'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/remosim'}
 
-contacts:
-- name: 'Remosim'
-  email: 'info@remosim.com'
-  image: 'assets/img/contact.jpg'
