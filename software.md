@@ -4,10 +4,9 @@ title: "Software"
 ---
 This page shows the steps we use to set up the software for RemoSIM customers. We install Asterisk 18 / FreePBX 16 on Raspbian Bullseye 64bit/32bit [Raspberry PI 4 aarch64/armhf] according to this tutorial.
 
-* TOC
-{:toc}
+* TOC {:toc}
 
-## Raspbian OS initial upgrade / config:
+## Raspbian OS initial upgrade / config
 
 ```
 sudo apt-get update
