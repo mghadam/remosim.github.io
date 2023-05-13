@@ -1,7 +1,7 @@
 menu:
 - {name: 'Hardware', url: '/hardware'}
 - {name: 'Software', url: '/software'}
-- {name: 'Client', url: '/client'}
+- {name: 'Connect', url: '/connect'}
 - {name: 'Support', url: '/support'}
 - {name: 'Github', url: '/github'}
 
