@@ -119,3 +119,38 @@ pre {
   border-radius: 0.25rem;
   padding: 0.59375rem;
 }
+
+/* fix in-page anchors to not be behind fixed header */
+:target:before {
+  content: "";
+  display: block;
+  height: 3.125rem; /* navbar height */
+  margin: -3.125rem 0 0;
+}
+
+.hideme {
+  display: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background-color: {{ site.hover-col | default: "#0085A1" }};
+}
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background-color: {{ site.hover-col | default: "#0085A1" }};
+}
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
+}
