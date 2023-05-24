@@ -179,6 +179,15 @@ pi ALL=(ALL) NOPASSWD:SETENV: /usr/sbin/fwconsole
 pi ALL=(ALL) NOPASSWD:SETENV: /usr/sbin/uhubctl
 
 ```
+Tuning `asterisk`, add the followings to `/etc/asterisk/asterisk.conf`
+```
+[files]
+astctlpermissions=775	; Make asterisk accessible by pi user
+
+[options]
+hideconnect=yes 	; Hide messages displayed when a remote console connects and disconnects
+```
+
 Misc configuration on Raspberry pi:
 
 ```
