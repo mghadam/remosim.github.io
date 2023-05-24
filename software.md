@@ -188,6 +188,11 @@ astctlpermissions=775	; Make asterisk accessible by pi user
 hideconnect=yes 	; Hide messages displayed when a remote console connects and disconnects
 ```
 
+Adding `pi` user to `asterisk` group to make it accessible for the user, add `pi` to end of the line starting with `asterisk` in `/etc/group`:
+```
+asterisk:x:1001:pi
+```
+
 Misc configuration on Raspberry pi:
 
 ```
